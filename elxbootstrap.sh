@@ -1,5 +1,12 @@
 #!/bin/sh
 # You must have /bin/sh, don't have that, we don't have anything
+# XXX Roll this into the script, ask if AMI
+# For AWS AMI you probably have to install Erlang from source
+# which means you also need termcap and ncurses
+# sudo yum install compat-libtermcap.x86_64
+# sudo yum install ncurses-devel.x86_64
+# wget https://packages.erlang-solutions.com/erlang/esl-erlang-src/otp_src_17.1.tar.gz
+# tar zxf otp_src_17.1.tar.gz && cd otp_src_17.1 && sh ./configure && make && sudo make install
 # -- -- --- --
 ## funcs 
 did_pass()
