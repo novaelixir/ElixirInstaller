@@ -65,7 +65,7 @@ echo "Grabbing Elixir..."
 TMPDIR="/tmp/elixir$$"
 mkdir $TMPDIR
 cd $TMPDIR
-wget https://github.com/elixir-lang/elixir/releases/download/v1.0.2/Precompiled.zip
+wget https://github.com/elixir-lang/elixir/releases/download/v1.0.5/Precompiled.zip
 unzip Precompiled.zip
 
 # Install the BEAM binaries in the right spot
